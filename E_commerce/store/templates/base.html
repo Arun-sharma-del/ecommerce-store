@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+{% load static %}
+<head>
+    <title>My Shop</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h1>My Shop</h1>
+    <nav>
+        {% if user.is_authenticated %}
+            Hello, {{ user.username }} 
+            
+            |<form method="post" action="{% url 'logout' %}" style="display: inline;">
+         {% csrf_token %}
+         <button type="submit" class="btn btn-link">Logout</button>
+         </form>
+        {% else %}
+         <a href="{% url 'login' %}">Login</a>
+        {% endif %}
+        | <a href="{% url 'cart_detail' %}">Cart</a>| <a href = "{% url 'index' %}">Home</a>
+    
+        
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
