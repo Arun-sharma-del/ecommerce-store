@@ -1,3 +1,7 @@
+from dotenv import load_dotenv
+load_dotenv()
+
+
 """
 Django settings for E_commerce project.
 
@@ -20,7 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-&dmg(2a83t+e)zr^f=tuq-qc)u_$vz5am(_$kp+yy$n2ck#@n!'
+import os
+SECRET_KEY = os.environ.get('django-insecure-&dmg(2a83t+e)zr^f=tuq-qc)u_$vz5am(_$kp+yy$n2ck#@n!')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
