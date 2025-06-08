@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="text-success">Thank You!</h1>
+<div class ="login-container">
+
+
+    <p>Your order has been placed successfully.</p>
+    <a href="{% url 'index' %}" class="btn btn-primary mt-3">Continue Shopping</a>
+</div>
+{% endblock %}

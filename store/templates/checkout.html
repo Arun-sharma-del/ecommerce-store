@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2>Checkout</h2>
+<div class="login-container">
+
+ <form id="checkout-form">
+  {% csrf_token %}
+  {{ form.as_p }}
+ </form>
+
+ <script src="https://js.stripe.com/v3/"></script>
+  <button id="checkout-button" class="btn btn-primary mt-4">Pay with Stripe</button>
+
+ <script>
+    const stripe = Stripe("{{ STRIPE_PUBLISHABLE_KEY }}");
+
+    document.getElementById("checkout-button").addEventListener("click", function () {
+        fetch("{% url 'create_checkout_session' %}")
+            .then(response => response.json())
+            .then(data => {
+                return stripe.redirectToCheckout({ sessionId: data.id });
+            })
+            .catch(error => console.error("Stripe checkout error:", error));
+    });
+  </script>
+ </div>
+{% endblock %}
