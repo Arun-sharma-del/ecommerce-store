@@ -1,5 +1,13 @@
+import os
 from dotenv import load_dotenv
+from pathlib import Path
 load_dotenv()
+BASE_DIR = Path(__file__).resolve().parent.parent
+load_dotenv(dotenv_path=BASE_DIR / ".env") 
+STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
+STRIPE_PUBLISHABLE_KEY = os.getenv("STRIPE_PUBLISHABLE_KEY")
+SECRET_KEY = os.getenv("SECRET_KEY")
+
 
 
 """
@@ -60,9 +68,6 @@ ROOT_URLCONF = 'E_commerce.urls'
 
 LOGOUT_REDIRECT_URL = 'base'
 
-import os
-STRIPE_SECRET_KEY = os.environ.get("STRIPE_SECRET_KEY")
-STRIPE_PUBLISHABLE_KEY = os.environ.get("STRIPE_PUBLISHABLE_KEY ")
 
 TEMPLATES = [
     {

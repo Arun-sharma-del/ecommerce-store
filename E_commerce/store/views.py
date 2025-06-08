@@ -12,6 +12,8 @@ from django.conf import settings
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 from .forms import CustomRegisterForm
+from django.http import HttpResponse
+
 
 def index(request):
     products = Product.objects.all()
@@ -151,13 +153,6 @@ def checkout(request):
         'STRIPE_PUBLISHABLE_KEY': settings.STRIPE_PUBLISHABLE_KEY,
     })
         
-
-import stripe
-from django.http import HttpResponse
-from django.views.decorators.csrf import csrf_exempt
-from django.conf import settings
-from .models import Order
-
 stripe.api_key = settings.STRIPE_SECRET_KEY
 
 @csrf_exempt
