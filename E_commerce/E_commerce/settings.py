@@ -1,7 +1,8 @@
 import os
-from dotenv import load_dotenv
-from pathlib import Path
-load_dotenv()
+if os.getenv("RENDER") is None:
+ from dotenv import load_dotenv
+ from pathlib import Path
+ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(dotenv_path=BASE_DIR / ".env") 
 STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
