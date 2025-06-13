@@ -1,8 +1,7 @@
 import os
-if os.getenv("RENDER") is None:
- from dotenv import load_dotenv
- from pathlib import Path
- load_dotenv()
+from dotenv import load_dotenv
+from pathlib import Path
+load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(dotenv_path=BASE_DIR / ".env") 
 STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
@@ -35,9 +34,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['arun7.pythonanywhere.com']
 
 
 # Application definition
@@ -135,6 +134,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = [ BASE_DIR / "store" / "static", ]
+
 
 MEDIA_URL = '/media/' 
 MEDIA_ROOT = BASE_DIR / 'media'
