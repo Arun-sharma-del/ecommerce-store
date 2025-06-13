@@ -10,6 +10,14 @@ STRIPE_PUBLISHABLE_KEY = os.getenv("STRIPE_PUBLISHABLE_KEY")
 SECRET_KEY = os.getenv("SECRET_KEY")
 
 
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': config('CLOUDINARY_CLOUD_NAME'),
+    'API_KEY': config('CLOUDINARY_API_KEY'),
+    'API_SECRET': config('CLOUDINARY_API_SECRET'),
+}
+
 
 """
 Django settings for E_commerce project.
@@ -50,6 +58,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'store',
+    'cloudinary',
+    'cloudinary_storage',
 ]
 
 TAILWIND_APP_NAME= 'store'
