@@ -34,7 +34,7 @@ urllib3==2.4.0
 python-dotenv
 
 gunicorn 
-whitenoise
+whitenoise ==5.3.0
 python-decouple
 
 
