@@ -33,3 +33,8 @@ urllib3==2.4.0
     # via requests
 python-dotenv
 
+gunicorn 
+whitenoise
+python-decouple
+
+
