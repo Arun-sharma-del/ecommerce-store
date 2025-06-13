@@ -36,12 +36,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD
-ALLOWED_HOSTS =  ['ecommerce-store-p6m2.onzender.com']
-=======
-ALLOWED_HOSTS = [os.getenv("RENDER_EXTERNAL_HOSTNAME", "localhost")]
->>>>>>> c5812d6 (initial commit)
-
+ALLOWED_HOSTS = ['arun7.pythonanywhere.com']
 
 # Application definition
 
