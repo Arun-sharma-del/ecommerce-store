@@ -1,10 +1,13 @@
 import os
 from dotenv import load_dotenv
 from pathlib import Path
-from decouple import config
+
 load_dotenv()
+
 BASE_DIR = Path(__file__).resolve().parent.parent
+
 load_dotenv(dotenv_path=BASE_DIR / ".env") 
+
 STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
 STRIPE_PUBLISHABLE_KEY = os.getenv("STRIPE_PUBLISHABLE_KEY")
 SECRET_KEY = os.getenv("SECRET_KEY")
@@ -13,11 +16,10 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': config('CLOUDINARY_CLOUD_NAME'),
-    'API_KEY': config('CLOUDINARY_API_KEY'),
-    'API_SECRET': config('CLOUDINARY_API_SECRET'),
+    'CLOUD_NAME': os.getenv('CLOUDINARY_CLOUD_NAME'),
+    'API_KEY': os.getenv('CLOUDINARY_API_KEY'),
+    'API_SECRET': os.getenv('CLOUDINARY_API_SECRET'),
 }
-
 
 """
 Django settings for E_commerce project.
@@ -43,7 +45,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG =  config("DEBUG", default=False, cast=bool)
+DEBUG =  False
 
 ALLOWED_HOSTS = ['*']
 
