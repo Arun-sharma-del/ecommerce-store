@@ -1,0 +1,218 @@
+[
+{
+  "model": "store.product",
+  "pk": 21,
+  "fields": {
+    "category": 20,
+    "name": "SONICBASS WIRED",
+    "slug": "sonicbass",
+    "description": "Experience rich, immersive sound with SonicBass's deep bass drivers. Built for long listening sessions, these tangle-free wired earphones come with soft silicone tips and an in-line mic for hands-free calling.\r\n\r\n🎵 Features: Deep bass, noise isolation, 3.5mm jack\r\n\r\n📞 In-line mic with play/pause and call control\r\n\r\n🧲 Magnetic earbuds for easy storage",
+    "price": "200.00",
+    "image": "image/upload/v1751545994/v8co0jyhpdmlubxpkow1.webp"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 22,
+  "fields": {
+    "category": 20,
+    "name": "URBAN",
+    "slug": "urban",
+    "description": "Perfect for commuting or workouts, UrbanVibe offers secure fit and sweat resistance.\r\n\r\n💧 Sweat & splash resistant\r\n\r\n🎤 One-button mic for call and music control\r\n\r\n🎶 Rich sound with low distortion",
+    "price": "300.00",
+    "image": "image/upload/v1751546371/fxfg2u0afltyvn30jcen.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 23,
+  "fields": {
+    "category": 20,
+    "name": "CRYSTALCLEAR WIRED",
+    "slug": "crystal",
+    "description": "Crafted from high-quality aluminum, CrystalTone delivers balanced mids and highs with a sleek, durable body.\r\n\r\n🎧 Precision 10mm drivers\r\n\r\n🎤 Built-in mic and control button\r\n\r\n🛡️ Braided anti-tangle cable",
+    "price": "300.00",
+    "image": "image/upload/v1751546456/ri2egmrop3hthaw5f9ef.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 24,
+  "fields": {
+    "category": 20,
+    "name": "DEEPBEATS STEREO",
+    "slug": "deepbeats",
+    "description": "Engineered for audiophiles, these wired earphones deliver crisp treble and accurate sound separation.\r\n\r\n🔈 Enhanced audio clarity with 12mm dynamic drivers\r\n\r\n🔇 Passive noise reduction\r\n\r\n⚙️ Metal housing for durability",
+    "price": "300.00",
+    "image": "image/upload/v1751546670/v5mdvpp0eezmxdzrznys.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 25,
+  "fields": {
+    "category": 20,
+    "name": "ECHOLINES FLAT",
+    "slug": "echo",
+    "description": "A minimalist wired earphone ideal for daily use, with lightweight design and punchy sound.\r\n\r\n🪶 Lightweight and compact\r\n\r\n📱 Compatible with Android, iOS, and laptops\r\n\r\n🧩 Three ear tip sizes for custom fit",
+    "price": "350.00",
+    "image": "image/upload/v1751546731/xmdtmnm2asutkgsfku6z.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 26,
+  "fields": {
+    "category": 19,
+    "name": "ZENBUDS",
+    "slug": "zenbuds",
+    "description": "Sleek, noise-isolating earbuds ideal for both calls and gaming.\r\n\r\n🎮 Low-latency game mode\r\n\r\n🔇 Environmental noise cancellation\r\n\r\n💼 Compact case with LED battery display",
+    "price": "1200.00",
+    "image": "image/upload/v1751546874/ned9yhoykrh5qjw3w7z8.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 27,
+  "fields": {
+    "category": 19,
+    "name": "AIRTUNE",
+    "slug": "airtune",
+    "description": "Compact wireless earbuds with powerful sound, AirTune Lite offers seamless connectivity and long battery life.\r\n\r\n🔋 Up to 20 hours playtime with charging case\r\n\r\n🌐 Bluetooth 5.3 for faster pairing\r\n\r\n🎙️ Dual-mic ENC for clear calls",
+    "price": "1500.00",
+    "image": "image/upload/v1751546923/f5yjkdfcp4ks2qthbdfv.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 28,
+  "fields": {
+    "category": 19,
+    "name": "NOVAPODS",
+    "slug": "novapods",
+    "description": "Stylish and durable wireless earphones with IPX5 water resistance.\r\n\r\n💧 Water-resistant for workouts\r\n\r\n🧠 Smart touch controls\r\n\r\n🔌 USB-C fast charging",
+    "price": "1500.00",
+    "image": "image/upload/v1751546988/tizfiswyq57hlu15sffw.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 29,
+  "fields": {
+    "category": 19,
+    "name": "BOOMX",
+    "slug": "boomx",
+    "description": "High bass wireless earphones designed for music lovers.\r\n\r\n💥 Deep bass with 13mm drivers\r\n\r\n🔋 24 hours total battery\r\n\r\n🌩️ Fast charging (10 min = 1 hour play)",
+    "price": "700.00",
+    "image": "image/upload/v1751547071/daqkxvxwihnvl1uuiovc.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 30,
+  "fields": {
+    "category": 19,
+    "name": "SOUNDPEAKS",
+    "slug": "soundspeaks",
+    "description": "High bass wireless earphones designed for music lovers.\r\n\r\n💥 Deep bass with 13mm drivers\r\n\r\n🔋 24 hours total battery\r\n\r\n🌩️ Fast charging (10 min = 1 hour play)",
+    "price": "1800.00",
+    "image": "image/upload/v1751547122/wrxz5irzpvgpjyjgqv4n.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 31,
+  "fields": {
+    "category": 21,
+    "name": "FITSYNC",
+    "slug": "fitsync",
+    "description": "Track your fitness and get smart notifications all day with PulseFit Pro.\r\n\r\n🏃 Step, heart rate, and sleep tracking\r\n\r\n📱 Call & message alerts\r\n\r\n💧 IP67 waterproof",
+    "price": "1500.00",
+    "image": "image/upload/v1751547264/ecx2yiz5twatdqr9byft.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 32,
+  "fields": {
+    "category": 21,
+    "name": "PLUSETRACK",
+    "slug": "plusetrack",
+    "description": "Bold design meets everyday functionality.\r\n\r\n⌚ 1.85\" HD display\r\n\r\n🩺 Blood oxygen & heart monitor\r\n\r\n🔋 Up to 10 days battery life",
+    "price": "2000.00",
+    "image": "image/upload/v1751547330/dazu8fqmnm1fsb27qbr3.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 33,
+  "fields": {
+    "category": 21,
+    "name": "ULTRAWATCH",
+    "slug": "ultrawatch",
+    "description": "Perfect for active users who want lightweight design and real-time tracking.\r\n\r\n🏋️ 12 sport modes\r\n\r\n🌙 Sleep and stress tracking\r\n\r\n🛠️ Customizable watch faces",
+    "price": "1800.00",
+    "image": "image/upload/v1751547388/ri2bm4ow6ssi5rwnehqm.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 34,
+  "fields": {
+    "category": 21,
+    "name": "FLEXTIME",
+    "slug": "flextime",
+    "description": "Touch-enabled smartwatch with curved screen and powerful sensors.\r\n\r\n🎨 Curved AMOLED display\r\n\r\n📊 Health dashboard in app\r\n\r\n🌞 Auto-brightness control",
+    "price": "2100.00",
+    "image": "image/upload/v1751547457/lxgycyzrlxqvgkfjnwbs.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 35,
+  "fields": {
+    "category": 21,
+    "name": "SMARTEDGE",
+    "slug": "smartedge",
+    "description": "Perfect for active users who want lightweight design and real-time tracking.\r\n\r\n🏋️ 12 sport modes\r\n\r\n🌙 Sleep and stress tracking\r\n\r\n🛠️ Customizable watch faces",
+    "price": "2000.00",
+    "image": "image/upload/v1751547516/vd2hzotuditmllsqaa5r.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 36,
+  "fields": {
+    "category": 21,
+    "name": "VITALSYNC",
+    "slug": "vitalsync",
+    "description": "Business-grade smartwatch with luxury finish.\r\n\r\n🧲 Stainless steel body\r\n\r\n📡 Smart call function with speaker\r\n\r\n⏱ ECG, SpO2, heart tracking",
+    "price": "2500.00",
+    "image": "image/upload/v1751547653/je64lgbum4ogqapzvhiy.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 37,
+  "fields": {
+    "category": 21,
+    "name": "ACTIVETIME",
+    "slug": "active",
+    "description": "Sleek and responsive smartwatch built for all-day comfort.\r\n\r\n🧭 GPS tracking built-in\r\n\r\n📲 App notifications + camera remote\r\n\r\n🕛 Stopwatch, timer, alarms",
+    "price": "1800.00",
+    "image": "image/upload/v1751547738/zv1ketaexjxqkeqw9xs2.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 38,
+  "fields": {
+    "category": 21,
+    "name": "CHRONOFIT",
+    "slug": "chrono",
+    "description": "Rugged smartwatch for outdoors and workouts.\r\n\r\n🧗 Shockproof design\r\n\r\n🧭 Compass, barometer, altimeter\r\n\r\n🔋 14-day battery with GPS usage",
+    "price": "3000.00",
+    "image": "image/upload/v1751547774/l3rzoqiyg3m6ycobk6fx.jpg"
+  }
+}
+]
